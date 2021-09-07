@@ -3,10 +3,15 @@
 \<Insert Logo\>   
 
 ### Customer Name
-contact info
+Trimm   
 Customer supervisor(s)
 
 ### Project group (members)   
+Daan Mäkel, 499588, 499588@student.saxion.nl (Contactpersoon)  
+Jeroen Schraa, 495994, 495994@student.saxion.nl  
+Thomas Verkeste, 454347, 454347@student.saxion.nl  
+Casper Toes, 482731, 492731@student.saxion.nl
+
 Names, student numbers & Mail addresses 
 Introduction
 
