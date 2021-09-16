@@ -1,0 +1,9 @@
+{
+    "name": "Trimm Test App",
+    "short_name": "Trimm Test",
+    "description": "First Test for the store",
+    "theme_color": "#fefefe",
+    "background_colour": "#333333",
+    "display": "standalone",
+    "start_url": "/index.html"
+}
