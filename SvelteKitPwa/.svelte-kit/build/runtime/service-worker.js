@@ -1,12 +1,14 @@
-export const timestamp = 1631644213994;
+export const timestamp = 1631873654940;
 
 export const build = [
-	"/_app/start-ce1bce48.js",
+	"/_app/start-aea389df.js",
 	"/_app/assets/start-a8cd1609.css",
-	"/_app/pages/__layout.svelte-e6dc412c.js",
-	"/_app/error.svelte-186d4a3e.js",
-	"/_app/pages/index.svelte-02e3842a.js",
-	"/_app/chunks/vendor-4cb6c218.js"
+	"/_app/pages/__layout.svelte-e271d57c.js",
+	"/_app/assets/pages/__layout.svelte-a0386caa.css",
+	"/_app/error.svelte-cfa611a6.js",
+	"/_app/pages/index.svelte-469b59de.js",
+	"/_app/assets/pages/index.svelte-ded6350f.css",
+	"/_app/chunks/vendor-aba279ef.js"
 ];
 
 export const files = [
@@ -43,5 +45,7 @@ export const files = [
 	"/pwa-512x512.png",
 	"/robots.txt",
 	"/svelte-welcome.png",
-	"/svelte-welcome.webp"
+	"/svelte-welcome.webp",
+	"/trailer.jpg",
+	"/TRIMM.png"
 ];

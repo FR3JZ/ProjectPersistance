@@ -32,6 +32,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
+    "core-js": "3.17",
     "workbox-precaching": "^6.1.5",
     "workbox-window": "^6.1.5"
   }
