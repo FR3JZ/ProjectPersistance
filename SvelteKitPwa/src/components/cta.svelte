@@ -1,8 +1,11 @@
+<script>
+import trailers from '../data/trailers.json'
+</script>
 <style>
     .ctas{
         margin-top: 50px;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 30% 30% 30%;
         grid-gap: 75px;
         margin-bottom: 50px;
     }
@@ -35,51 +38,22 @@
         font-size: 26px;
         margin-top: 0px;
     }
+    @media screen and (max-width: 1030px){
+        .ctas{
+        grid-template-columns: 45% 45%;
+        }
+    }
 </style>
 <div class="ctas">
-    <a class="cta-link" href="##">
+    {#each trailers as trailer}
+    <a class="cta-link" href="/trailers/{trailer.id}">
         <div class="cta">
             <div class="cta-img"></div>
             <div class="cta-info">
-                <h3 class="cta-title">Trailer 1</h3>
-                <p class="cta-text">info over de trailer</p>
+                <h3 class="cta-title">{trailer.title}</h3>
+                <p class="cta-text">{trailer.price}</p>
             </div>
         </div>
     </a>
-    <a class="cta-link" href="##">
-        <div class="cta">
-            <div class="cta-img"></div>
-            <div class="cta-info">
-                <h3 class="cta-title">Trailer 1</h3>
-                <p class="cta-text">info over de trailer</p>
-            </div>
-        </div>
-    </a>
-    <a class="cta-link" href="##">
-        <div class="cta">
-            <div class="cta-img"></div>
-            <div class="cta-info">
-                <h3 class="cta-title">Trailer 1</h3>
-                <p class="cta-text">info over de trailer</p>
-            </div>
-        </div>
-    </a>
-    <a class="cta-link" href="##">        
-        <div class="cta">
-            <div class="cta-img"></div>
-            <div class="cta-info">
-                <h3 class="cta-title">Trailer 1</h3>
-                <p class="cta-text">info over de trailer</p>
-            </div>
-        </div>
-    </a>
-    <a class="cta-link" href="##">        
-        <div class="cta">
-            <div class="cta-img"></div>
-            <div class="cta-info">
-                <h3 class="cta-title">Trailer 1</h3>
-                <p class="cta-text">info over de trailer</p>
-            </div>
-        </div>
-    </a>
+    {/each}
 </div>

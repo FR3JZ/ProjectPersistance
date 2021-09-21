@@ -53,7 +53,7 @@
 		<img src="../../../static/TRIMM.png" alt="logo">
 		<h2 class="title">Trimm</h2>
 		<div class="nav-right">
-			<a href="#">
+			<a href="/">
 				<li class="active">Home</li>
 			</a>
 			<a href="#">

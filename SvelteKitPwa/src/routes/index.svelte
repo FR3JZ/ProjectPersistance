@@ -1,6 +1,5 @@
 <script>
 import Cta from "../components/cta.svelte";
-
 </script>
 <style>
     h1{
